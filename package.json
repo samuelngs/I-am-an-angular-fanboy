@@ -1,0 +1,25 @@
+{
+  "name": "I-am-an-angular-fanboy",
+  "version": "0.0.1",
+  "description": "\"Angular-fanboy\" framework in React-land",
+  "main": "index.js",
+  "repository": "git@github.com:samuelngs/I-am-an-angular-fanboy.git",
+  "author": "Samuel <sam@infinitely.io>",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^4.0.0",
+    "mustache": "^2.3.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "next": "beta"
+  },
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "next build test",
+    "start": "NODE_ENV=production node src/server.js"
+  }
+}
