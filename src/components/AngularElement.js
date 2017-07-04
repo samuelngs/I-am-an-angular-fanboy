@@ -1,3 +1,4 @@
+// TODO: Add typescript and make sure not to unit test 
 
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
